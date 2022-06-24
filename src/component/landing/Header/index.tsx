@@ -8,7 +8,10 @@ import image2 from "./image/mar_3.jpg";
 import image3 from "./image/mar_4.jpg";
 
 const Header = () => {
-  const fadeImages = [
+  type ImageType = {
+    url: string;
+  };
+  const fadeImages: ImageType[] = [
     {
       url: image2,
     },

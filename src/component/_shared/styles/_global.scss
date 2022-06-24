@@ -86,5 +86,7 @@
     border-radius: multiply-px($i);
   }
 }
-
-
+// theme switch
+.switch {
+  margin: multiply-px(4) 0 multiply-px(4) multiply-px(6);
+}

@@ -1,0 +1,532 @@
+{
+  "store":[
+    {
+      "Category":"Clothing",
+      "name":"Mekzy Shoes",
+      "image":"images/ash shirt and trouser.jpg",
+      "description": "We offer you the best of the best types of clothing that you vcan ever have",
+      "no": "1",
+      "likes": 2,
+      "votes": 2,
+      "featured-product": ["/images/black combat.jpg","/images/black dior.jpg", "/images/colored shoe.jpg","/images/pink shirt.jpg","/images/boxers.jpg"]
+    },
+
+    {
+      "Category":"Clothing",
+      "name":"Peters Ent.",
+      "image":"/images/black combat.jpg",
+      "description": "We offer you the best of the best types of clothing that you vcan ever have",
+      "no": "2",
+      "likes": 2,
+      "votes": 2,
+      "featured-product": ["/images/ash shirt and trouser.jpg","/images/black dior.jpg", "/images/colored shoe.jpg","/images/pink shirt.jpg","/images/boxers.jpg"]
+
+    },
+    {
+      "Category":"Clothing",
+      "name":"James Clothing",
+      "image":"/images/black dior.jpg",
+      "description": "We offer you the best of the best types of clothing that you vcan ever have",
+      "no": "3",
+      "likes": 2,
+      "votes": 2,
+      "featured-product": ["/images/black combat.jpg","/images/ash shirt and trouser.jpg", "/images/colored shoe.jpg","/images/pink shirt.jpg","/images/boxers.jpg"]
+
+    },
+    {
+      "Category":"Clothing",
+      "name":"Sani Ltd",
+      "image":"/images/colored shoe.jpg",
+      "description": "We offer you the best of the best types of clothing that you vcan ever have",
+      "no": "4",
+      "likes": 2,
+      "votes": 2,
+      "featured-product": ["/images/black combat.jpg","/images/black dior.jpg", "/images/ash shirt and trouser.jpg","/images/pink shirt.jpg","/images/boxers.jpg"]
+
+    },
+    {
+      "Category":"Clothing",
+      "name":"ABC Shirts",
+      "image":"/images/two black t-shirt.jpg",
+      "description": "We offer you the best of the best types of clothing that you vcan ever have",
+      "no": "5",
+      "likes": 2,
+      "votes": 2,
+      "featured-product": ["/images/black combat.jpg","/images/black dior.jpg", "/images/colored shoe.jpg","/images/pink shirt.jpg","/images/boxers.jpg"]
+
+    },
+    {
+      "Category":"Clothing",
+      "name":"Hafsy tops",
+      "image":"/images/pink shirt.jpg",
+      "description": "We offer you the best of the best types of clothing that you vcan ever have",
+      "no": "6",
+      "likes": 2,
+      "votes": 2,
+      "featured-product": ["/images/black combat.jpg","/images/black dior.jpg", "/images/colored shoe.jpg","/images/pink shirt.jpg","/images/boxers.jpg"]
+
+    },
+    {
+      "Category":"Clothing",
+      "name":"Doctor Styles",
+      "image":"/images/swag guy.jpg",
+      "description": "We offer you the best of the best types of clothing that you vcan ever have",
+      "no": "7",
+      "likes": 2,
+      "votes": 2,
+      "featured-product": ["/images/black combat.jpg","/images/black dior.jpg", "/images/colored shoe.jpg","/images/pink shirt.jpg","/images/boxers.jpg"]
+
+    },
+    {
+      "Category":"Clothing",
+      "name":"Richy Rich",
+      "image":"/images/caps.jpg",
+      "description": "We offer you the best of the best types of clothing that you vcan ever have",
+      "no": "8",
+      "likes": 2,
+      "votes": 2,
+      "featured-product": ["/images/black combat.jpg","/images/black dior.jpg", "/images/colored shoe.jpg","/images/pink shirt.jpg","/images/boxers.jpg"]
+
+    },
+    {
+      "Category":"Clothing",
+      "name":"Manny Pairs",
+      "image":"/images/gucci slippers.jpg",
+      "description": "We offer you the best of the best types of clothing that you vcan ever have",
+      "no": "9",
+      "likes": 2,
+      "votes": 2,
+      "featured-product": ["/images/black combat.jpg","/images/black dior.jpg", "/images/colored shoe.jpg","/images/pink shirt.jpg","/images/boxers.jpg"]
+
+    },
+    {
+      "Category":"Clothing",
+      "name":"Karen Ent.",
+      "image":"/images/boxers.jpg",
+      "description": "We offer you the best of the best types of clothing that you vcan ever have",
+      "no": "12",
+      "likes": 2,
+      "votes": 2,
+      "featured-product": ["/images/black combat.jpg","/images/black dior.jpg", "/images/colored shoe.jpg","/images/pink shirt.jpg","/images/boxers.jpg"]
+
+    },
+    {
+      "Category":"Foods",
+      "name":"Benny Ben",
+      "image":"/images/indomie.jpg",
+      "description": "We offer you the best of the best types of clothing that you vcan ever have",
+      "no": "11",
+      "likes": 2,
+      "votes": 2,
+      "featured-product": ["/images/chicken pie.jpg","/images/juice.jpg", "/images/fat chicken.jpg","/images/indomie.jpg","/images/icecream.jpg"]
+
+    },
+    {
+      "Category":"Foods",
+      "name":"Solo Chickens",
+      "image":"/images/chicken pie.jpg",
+      "description": "We offer you the best of the best types of clothing that you vcan ever have",
+      "no": "12",
+      "likes": 2,
+      "votes": 2,
+      "featured-product": ["/images/chicken pie.jpg","/images/juice.jpg", "/images/fat chicken.jpg","/images/indomie.jpg","/images/icecream.jpg"]
+
+    },
+    {
+      "Category":"Foods",
+      "name":"James Drinks",
+      "image":"/images/juice.jpg",
+      "description": "We offer you the best of the best types of clothing that you vcan ever have",
+      "no": "13",
+      "likes": 2,
+      "votes": 2,
+      "featured-product": ["/images/chicken pie.jpg","/images/juice.jpg", "/images/fat chicken.jpg","/images/indomie.jpg","/images/icecream.jpg"]
+
+    },
+    {
+      "Category":"Foods",
+      "name":"Uncle Sharwarma",
+      "image":"/images/fat chicken.jpg",
+      "description": "We offer you the best of the best types of clothing that you vcan ever have",
+      "no": "14",
+      "likes": 2,
+      "votes": 2,
+      "featured-product": ["/images/chicken pie.jpg","/images/juice.jpg", "/images/fat chicken.jpg","/images/indomie.jpg","/images/icecream.jpg"]
+
+    },
+    {
+      "Category":"Foods",
+      "name":"Aunty Rose",
+      "image":"/images/icecream.jpg",
+      "description": "We offer you the best of the best types of clothing that you vcan ever have",
+      "no": "15",
+      "likes": 2,
+      "votes": 2,
+      "featured-product": ["/images/chicken pie.jpg","/images/juice.jpg", "/images/fat chicken.jpg","/images/indomie.jpg","/images/icecream.jpg"]
+
+    },
+    {
+      "Category":"Foods",
+      "name":"Hafsy Cakes",
+      "image":"/images/juice.jpg",
+      "description": "We offer you the best of the best types of clothing that you vcan ever have",
+      "no": "16",
+      "likes": 2,
+      "votes": 2,
+      "featured-product": ["/images/chicken pie.jpg","/images/juice.jpg", "/images/fat chicken.jpg","/images/indomie.jpg","/images/icecream.jpg"]
+
+    },
+    {
+      "Category":"Foods",
+      "name":"Bond Burns",
+      "image":"/images/indomie.jpg",
+      "description": "We offer you the best of the best types of clothing that you vcan ever have",
+      "no": "17",
+      "likes": 2,
+      "votes": 2,
+      "featured-product": ["/images/chicken pie.jpg","/images/juice.jpg", "/images/fat chicken.jpg","/images/indomie.jpg","/images/icecream.jpg"]
+
+    },
+    {
+      "Category":"Foods",
+      "name":"Mr Bigs",
+      "image":"/images/fat chicken.jpg",
+      "description": "We offer you the best of the best types of clothing that you vcan ever have",
+      "no": "18",
+      "likes": 2,
+      "votes": 2,
+      "featured-product": ["/images/chicken pie.jpg","/images/juice.jpg", "/images/fat chicken.jpg","/images/indomie.jpg","/images/icecream.jpg"]
+
+    },
+    {
+      "Category":"Foods",
+      "name":"Manny Pairs",
+      "image":"/images/chips and chicken.jpg",
+      "description": "We offer you the best of the best types of clothing that you vcan ever have",
+      "no": "19",
+      "likes": 2,
+      "votes": 2,
+      "featured-product": ["/images/chicken pie.jpg","/images/juice.jpg", "/images/fat chicken.jpg","/images/indomie.jpg","/images/icecream.jpg"]
+
+    },
+    {
+      "Category":"Foods",
+      "name":"Karen Meals",
+      "image":"/images/chicken pie.jpg",
+      "description": "We offer you the best of the best types of clothing that you vcan ever have",
+      "no": "22",
+      "likes": 2,
+      "votes": 2,
+      "featured-product": ["/images/chicken pie.jpg","/images/juice.jpg", "/images/fat chicken.jpg","/images/indomie.jpg","/images/icecream.jpg"]
+
+    },
+    {
+      "Category":"Bags",
+      "name":"Sandra Bags",
+      "image":"/images/white baby(1).jpg",
+      "description": "We offer you the best of the best types of clothing that you vcan ever have",
+      "no": "21",
+      "likes": 2,
+      "votes": 2,
+      "featured-product": ["/images/white baby(1).jpg","/images/white baby(2).jpg", "/images/white baby(3).jpg","/images/white baby(4).jpg","/images/white baby(5).jpg"]
+
+    },
+    {
+      "Category":"Bags",
+      "name":"Wisdom Child",
+      "image":"/images/white baby(2).jpg",
+      "description": "We offer you the best of the best types of clothing that you vcan ever have",
+      "no": "22",
+      "likes": 2,
+      "votes": 2,
+      "featured-product": ["/images/white baby(1).jpg","/images/white baby(2).jpg", "/images/white baby(3).jpg","/images/white baby(4).jpg","/images/white baby(5).jpg"]
+
+    },
+    {
+      "Category":"Bags",
+      "name":"Bags House",
+      "image":"/images/white baby(3).jpg",
+      "description": "We offer you the best of the best types of clothing that you vcan ever have",
+      "no": "23",
+      "likes": 2,
+      "votes": 2,
+      "featured-product": ["/images/white baby(1).jpg","/images/white baby(2).jpg", "/images/white baby(3).jpg","/images/white baby(4).jpg","/images/white baby(5).jpg"]
+
+    },
+    {
+      "Category":"Bags",
+      "name":"My Child",
+      "image":"/images/white baby(4).jpg",
+      "description": "We offer you the best of the best types of clothing that you vcan ever have",
+      "no": "24",
+      "likes": 2,
+      "votes": 2,
+      "featured-product": ["/images/white baby(1).jpg","/images/white baby(2).jpg", "/images/white baby(3).jpg","/images/white baby(4).jpg","/images/white baby(5).jpg"]
+
+    },
+    {
+      "Category":"Bags",
+      "name":"Forever Young",
+      "image":"/images/white baby(5).jpg",
+      "description": "We offer you the best of the best types of clothing that you vcan ever have",
+      "no": "25",
+      "likes": 2,
+      "votes": 2,
+      "featured-product": ["/images/white baby(1).jpg","/images/white baby(2).jpg", "/images/white baby(3).jpg","/images/white baby(4).jpg","/images/white baby(5).jpg"]
+
+    },
+    {
+      "Category":"Bags",
+      "name":"Petty",
+      "image":"/images/white baby(7).jpg",
+      "description": "We offer you the best of the best types of clothing that you vcan ever have",
+      "no": "26",
+      "likes": 2,
+      "votes": 2,
+      "featured-product": ["/images/white baby(1).jpg","/images/white baby(2).jpg", "/images/white baby(3).jpg","/images/white baby(4).jpg","/images/white baby(5).jpg"]
+
+    },
+    {
+      "Category":"Bags",
+      "name":"Baby's Bags",
+      "image":"/images/white baby(6).jpg",
+      "description": "We offer you the best of the best types of clothing that you vcan ever have",
+      "no": "27",
+      "likes": 2,
+      "votes": 2,
+      "featured-product": ["/images/white baby(1).jpg","/images/white baby(2).jpg", "/images/white baby(3).jpg","/images/white baby(4).jpg","/images/white baby(5).jpg"]
+
+    },
+    {
+      "Category":"Bags",
+      "name":"Child World",
+      "image":"/images/white baby(8).jpg",
+      "description": "We offer you the best of the best types of clothing that you vcan ever have",
+      "no": "28",
+      "likes": 2,
+      "votes": 2,
+      "featured-product": ["/images/white baby(1).jpg","/images/white baby(2).jpg", "/images/white baby(3).jpg","/images/white baby(4).jpg","/images/white baby(5).jpg"]
+
+    },
+    {
+      "Category":"Bags",
+      "name":"Janes Rehab",
+      "image":"/images/white baby(9).jpg",
+      "description": "We offer you the best of the best types of clothing that you vcan ever have",
+      "no": "29",
+      "likes": 2,
+      "votes": 2,
+      "featured-product": ["/images/white baby(1).jpg","/images/white baby(2).jpg", "/images/white baby(3).jpg","/images/white baby(4).jpg","/images/white baby(5).jpg"]
+
+    },
+    {
+      "Category":"Bags",
+      "name":"Kiddy Kiddy",
+      "image":"/images/white baby(12).jpg",
+      "description": "We offer you the best of the best types of clothing that you vcan ever have",
+      "no": "32",
+      "likes": 2,
+      "votes": 2,
+      "featured-product": ["/images/white baby(1).jpg","/images/white baby(2).jpg", "/images/white baby(3).jpg","/images/white baby(4).jpg","/images/white baby(5).jpg"]
+
+    },
+    {
+      "Category":"Shoes",
+      "name":"Hommie",
+      "image":"/images/Shoes(1).jpg",
+      "description": "We offer you the best of the best types of clothing that you vcan ever have",
+      "no": "31",
+      "likes": 2,
+      "votes": 2,
+      "featured-product": ["/images/Shoes(1).jpg","/images/Shoes(2).jpg", "/images/Shoes(3).jpg","/images/Shoes(4).jpg","/images/Shoes(5).jpg"]
+
+    },
+    {
+      "Category":"Shoes",
+      "name":"My Shoes",
+      "image":"/images/Shoes(2).jpg",
+      "description": "We offer you the best of the best types of clothing that you vcan ever have",
+      "no": "32",
+      "likes": 2,
+      "votes": 2,
+      "featured-product": ["/images/Shoes(1).jpg","/images/Shoes(2).jpg", "/images/Shoes(3).jpg","/images/Shoes(4).jpg","/images/Shoes(5).jpg"]
+
+    },
+    {
+      "Category":"Shoes",
+      "name":"Parlour",
+      "image":"/images/Shoes(3).jpg",
+      "description": "We offer you the best of the best types of clothing that you vcan ever have",
+      "no": "33",
+      "likes": 2,
+      "votes": 2,
+      "featured-product": ["/images/Shoes(1).jpg","/images/Shoes(2).jpg", "/images/Shoes(3).jpg","/images/Shoes(4).jpg","/images/Shoes(5).jpg"]
+
+    },
+    {
+      "Category":"Shoes",
+      "name":"Chief Palace",
+      "image":"/images/Shoes(4).jpg",
+      "description": "We offer you the best of the best types of clothing that you vcan ever have",
+      "no": "34",
+      "likes": 2,
+      "votes": 2,
+      "featured-product": ["/images/Shoes(1).jpg","/images/Shoes(2).jpg", "/images/Shoes(3).jpg","/images/Shoes(4).jpg","/images/Shoes(5).jpg"]
+
+    },
+    {
+      "Category":"Shoes",
+      "name":"David Palace",
+      "image":"/images/Shoes(5).jpg",
+      "description": "We offer you the best of the best types of clothing that you vcan ever have",
+      "no": "35",
+      "likes": 2,
+      "votes": 2
+    },
+    {
+      "Category":"Shoes",
+      "name":"SOlomon's Hill",
+      "image":"/images/Shoes(6).jpg",
+      "description": "We offer you the best of the best types of clothing that you vcan ever have",
+      "no": "36",
+      "likes": 2,
+      "votes": 2,
+      "featured-product": ["/images/Shoes(1).jpg","/images/Shoes(2).jpg", "/images/Shoes(3).jpg","/images/Shoes(4).jpg","/images/Shoes(5).jpg"]
+
+    },
+    {
+      "Category":"Shoes",
+      "name":"Favourite Kitchen",
+      "image":"/images/Shoes(7).jpg",
+      "description": "We offer you the best of the best types of clothing that you vcan ever have",
+      "no": "37",
+      "likes": 2,
+      "votes": 2,
+      "featured-product": ["/images/Shoes(1).jpg","/images/Shoes(2).jpg", "/images/Shoes(3).jpg","/images/Shoes(4).jpg","/images/Shoes(5).jpg"]
+
+    },
+    {
+      "Category":"Shoes",
+      "name":"BedMate",
+      "image":"/images/Shoes(8).jpg",
+      "description": "We offer you the best of the best types of clothing that you vcan ever have",
+      "no": "38",
+      "likes": 2,
+      "votes": 2,
+      "featured-product": ["/images/Shoes(1).jpg","/images/Shoes(2).jpg", "/images/Shoes(3).jpg","/images/Shoes(4).jpg","/images/Shoes(5).jpg"]
+
+    },
+    {
+      "Category":"Shoes",
+      "name":"Sleep Nice Ent.",
+      "image":"/images/Shoes(2).jpg",
+      "description": "We offer you the best of the best types of clothing that you vcan ever have",
+      "no": "39",
+      "likes": 2,
+      "votes": 2,
+      "featured-product": ["/images/Shoes(1).jpg","/images/Shoes(2).jpg", "/images/Shoes(3).jpg","/images/Shoes(4).jpg","/images/Shoes(5).jpg"]
+
+    },
+    {
+      "Category":"Shoes",
+      "name":"DeGreat",
+      "image":"/images/Shoes(7).jpg",
+      "description": "We offer you the best of the best types of clothing that you vcan ever have",
+      "no": "42",
+      "likes": 2,
+      "votes": 2,
+      "featured-product": ["/images/Shoes(1).jpg","/images/Shoes(2).jpg", "/images/Shoes(3).jpg","/images/Shoes(4).jpg","/images/Shoes(5).jpg"]
+
+    },
+    {
+      "Category":"Utensils",
+      "name":"ChiChi Stores",
+      "image":"/images/Utensils(1).jpg",
+      "description": "We offer you the best of the best types of clothing that you vcan ever have",
+      "no": "41",
+      "likes": 2,
+      "votes": 2,
+      "featured-product": ["/images/Utensils(1).jpg","/images/Utensils(2).jpg", "/images/Utensils(3).jpg","/images/Utensils(4).jpg","/images/Utensils(5).jpg"]
+
+    },
+    {
+      "Category":"Utensils",
+      "name":"MaMa Amina",
+      "image":"/images/Utensils(2).jpg",
+      "description": "We offer you the best of the best types of clothing that you vcan ever have",
+      "no": "42",
+      "likes": 2,
+      "votes": 2,
+      "featured-product": ["/images/Utensils(1).jpg","/images/Utensils(2).jpg", "/images/Utensils(3).jpg","/images/Utensils(4).jpg","/images/Utensils(5).jpg"]
+
+    },
+    {
+      "Category":"Utensils",
+      "name":"Miss Shetty Ent.",
+      "image":"/images/Utensils(3).jpg",
+      "description": "We offer you the best of the best types of clothing that you vcan ever have",
+      "no": "43",
+      "likes": 2,
+      "votes": 2,
+      "featured-product": ["/images/Utensils(1).jpg","/images/Utensils(2).jpg", "/images/Utensils(3).jpg","/images/Utensils(4).jpg","/images/Utensils(5).jpg"]
+
+    },
+    {
+      "Category":"Utensils",
+      "name":"MoneyMan",
+      "image":"/images/Utensils(4).jpg",
+      "description": "We offer you the best of the best types of clothing that you vcan ever have",
+      "no": "44",
+      "likes": 2,
+      "votes": 2,
+      "featured-product": ["/images/Utensils(1).jpg","/images/Utensils(2).jpg", "/images/Utensils(3).jpg","/images/Utensils(4).jpg","/images/Utensils(5).jpg"]
+
+    },
+    {
+      "Category":"Utensils",
+      "name":"Baba Ijebu",
+      "image":"/images/Utensils(5).jpg",
+      "description": "We offer you the best of the best types of clothing that you vcan ever have",
+      "no": "45",
+      "likes": 2,
+      "votes": 2,
+      "featured-product": ["/images/Utensils(1).jpg","/images/Utensils(2).jpg", "/images/Utensils(3).jpg","/images/Utensils(4).jpg","/images/Utensils(5).jpg"]
+
+    },
+
+    {
+      "Category":"Utensils",
+      "name":"Salami",
+      "image":"/images/Utensils(8).jpg",
+      "description": "We offer you the best of the best types of clothing that you vcan ever have",
+      "no": "48",
+      "likes": 2,
+      "votes": 2,
+      "featured-product": ["/images/Utensils(1).jpg","/images/Utensils(2).jpg", "/images/Utensils(3).jpg","/images/Utensils(4).jpg","/images/Utensils(5).jpg"]
+
+    },
+    {
+      "Category":"Utensils",
+      "name":"Sleep Great Ent.",
+      "image":"/images/Utensils(2).jpg",
+      "description": "We offer you the best of the best types of clothing that you vcan ever have",
+      "no": "49",
+      "likes": 2,
+      "votes": 2,
+      "featured-product": ["/images/Utensils(1).jpg","/images/Utensils(2).jpg", "/images/Utensils(3).jpg","/images/Utensils(4).jpg","/images/Utensils(5).jpg"]
+
+    },
+    {
+      "Category":"Utensils",
+      "name":"DeGreat",
+      "image":"/images/Utensils(6).jpg",
+      "description": "We offer you the best of the best types of clothing that you vcan ever have",
+      "no": "52",
+      "likes": 2,
+      "votes": 2,
+      "featured-product": ["/images/Utensils(1).jpg","/images/Utensils(2).jpg", "/images/Utensils(3).jpg","/images/Utensils(4).jpg","/images/Utensils(5).jpg"]
+
+    }
+
+  ]
+}

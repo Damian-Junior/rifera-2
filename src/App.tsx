@@ -11,8 +11,9 @@ const App = () => {
   return (
     <div className="App" data-theme={theme}>
       <Switch
+        checked={theme === "dark"}
         onChange={changeTheme}
-        className={" rif-ml-6 rif-my-4 rif-px-2"}
+        className={"switch"}
         unCheckedChildren={"Dark"}
         checkedChildren="Light"
       />
