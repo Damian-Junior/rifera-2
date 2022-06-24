@@ -1,0 +1,15 @@
+@use './component/_shared/styles/_global.scss';
+@import "./component/_shared/styles/_variables.scss";
+
+[data-theme="light"] {
+  background-color: $background-primary !important;
+  color: $text-color-primary !important;
+}
+
+[data-theme="dark"] {
+  background-color: $background-secondary !important;
+  color: $text-color-secondary !important;
+}
+[data-theme='dark'] .rif-slide-image {
+  box-shadow: 1px 1px  black;
+}
