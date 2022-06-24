@@ -90,3 +90,84 @@
 .switch {
   margin: multiply-px(4) 0 multiply-px(4) multiply-px(6);
 }
+
+// flex
+.#{$prefix}-flex {
+  display: flex !important;
+}
+
+.#{$prefix}-inline-flex {
+  display: inline-flex !important;
+}
+
+.#{$prefix}-items-center {
+  align-items: center !important;
+}
+
+.#{$prefix}-items-start {
+  align-items: flex-start !important;
+}
+
+.#{$prefix}-items-end {
+  align-items: flex-end;
+}
+
+.#{$prefix}-justify-center {
+  justify-content: center !important;
+}
+
+.#{$prefix}-justify-between {
+  justify-content: space-between !important;
+}
+
+.#{$prefix}-justify-around {
+  justify-content: space-around !important;
+}
+
+.#{$prefix}-justify-start {
+  justify-content: flex-start !important;
+}
+
+.#{$prefix}-justify-end {
+  justify-content: flex-end !important;
+}
+
+.#{$prefix}-flex-row {
+  flex-direction: row !important;
+}
+
+.#{$prefix}-flex-row-reverse {
+  flex-direction: row-reverse;
+}
+
+.#{$prefix}-flex-col {
+  flex-direction: column !important;
+}
+
+.#{$prefix}-flex-col-reverse {
+  flex-direction: column-reverse !important;
+}
+
+//position
+.#{$prefix}-fixed {
+  position: fixed !important;
+}
+
+.#{$prefix}-absolute {
+  position: absolute !important;
+}
+
+.#{$prefix}-sticky {
+  position: sticky;
+}
+
+.#{$prefix}-relative {
+  position: relative !important;
+}
+
+// Aligns perfectly center
+.#{$prefix}-flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
