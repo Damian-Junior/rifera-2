@@ -14,6 +14,23 @@ $margin-xss: 4px; // more small
 
 //themes_styles
 $background-primary: white;
-$text-color-primary: black;
-$background-secondary: black;
-$text-color-secondary: white;
+$background-secondary: #1d1f22;
+$text-color: #000;
+$text-color-inverse: #d4d4d5;
+$text-color-secondary: rgba(212, 212, 213, 0.45);
+$border-color-base: #d9d9d9;
+
+// Font-size
+$fs-page: 1rem * 2; // 32px (default)
+$fs-text-sm-1: 1rem * 0.5; // 8px (default)
+$fs-text-sm-2: 1rem * 0.625; // 10px (default)
+$fs-text-sm-3: 1rem * 0.75; // 12px (default)
+$fs-text-sm-4: 1rem * 0.875; // 14px (default)
+$fs-text-1: 1rem; // 16px (default)
+$fs-text-2: 1rem * 1.125; // 18px (default)
+$fs-text-3: 1rem * 1.25; // 20px (default)
+$fs-text-4: 1rem * 1.5; // 24px (default)
+$fs-text-5: 1rem * 2; // 32px (default)
+$fs-text-6: 1rem * 2.125; // 34px (default)
+$fs-text-7: 1rem * 2.25; // 36px (default)
+$fs-text-8: 1rem * 2.5; // 40px (default)

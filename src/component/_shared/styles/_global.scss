@@ -79,3 +79,12 @@
   height: 408px !important;
   box-shadow: 5px 5px 10px lightgray !important ;
 }
+
+//border_radius
+@for $i from 1 through 20 {
+  .#{$prefix}-br-#{$i} {
+    border-radius: multiply-px($i);
+  }
+}
+
+
