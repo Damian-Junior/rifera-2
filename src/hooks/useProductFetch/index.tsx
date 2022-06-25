@@ -9,7 +9,9 @@ const useProductFetch = (product: string) => {
     axios
       .get(" http://localhost:5000/store")
       .then((response) => {
-        const productType: Array<Record<string, any>> = response.data;
+        const productType: Array<Record<string, any>> = response.data.filter(
+          (store: StoreType) => store.Category === product
+        );
         setData(productType);
           console.log(productType);
       })
