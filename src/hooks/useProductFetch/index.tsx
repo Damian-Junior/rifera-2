@@ -9,15 +9,13 @@ const useProductFetch = (product: string) => {
     axios
       .get(" http://localhost:5000/store")
       .then((response) => {
-        const productType: Array<Record<string, any>> = response.data.filter(
-          (store: StoreType) => store.Category === product
-        );
+        const productType: Array<Record<string, any>> = response.data;
         setData(productType);
-
+          console.log(productType);
       })
       .catch((err) => console.log(err.message));
   }, []);
-    console.log(data);
+
   return { data };
 };
 export default useProductFetch;
