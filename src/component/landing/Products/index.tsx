@@ -2,6 +2,7 @@
 
 import React, { useEffect, useState, useRef } from "react";
 import { Spin, Card, Button, Modal } from "antd";
+import { Carousel } from "3d-react-carousal";
 import location from "./location-icon.png";
 import { StoreType } from "../../_shared/types";
 
@@ -45,7 +46,7 @@ const Products = (props: PropType) => {
     <div className="home">
       {data?.map((store, key) => {
         return (
-          <div className={""} key={key}>
+          <div className={"rif-flex rif-justify-evenly"} key={key}>
             <Card hoverable cover={<img alt="example" src={logo} />}>
               <h2>{store?.name}</h2>
               <p className="card-description">{store?.description}</p>

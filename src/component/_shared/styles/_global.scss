@@ -128,6 +128,9 @@
   justify-content: flex-start !important;
 }
 
+.#{$prefix}-justify-evenly {
+  justify-content: space-evenly !important;
+}
 .#{$prefix}-justify-end {
   justify-content: flex-end !important;
 }
@@ -148,6 +151,9 @@
   flex-direction: column-reverse !important;
 }
 
+.#{$prefix}-overflow-x-scroll {
+  overflow-x: scroll !important;
+}
 //position
 .#{$prefix}-fixed {
   position: fixed !important;
