@@ -45,21 +45,33 @@ const Products = (props: PropType) => {
   return (
     // @ts-ignore
     <Coverflow
-      width={960}
-      height={480}
-      displayQuantityOfSide={2}
+      width={100}
+      height={400}
+      displayQuantityOfSide={1}
       navigation={false}
       enableHeading={false}
     >
       {data?.map((store, key) => {
         return (
-          <Card hoverable cover={<img alt="example" src={logo} key={key} />}>
-            <h2>{store?.name}</h2>
-            <p className="card-description">{store?.description}</p>
+          <Card
+            hoverable
+            className={"rif-relative h-50 rif-py-15 w-50"}
+            cover={
+              <img
+                alt="example"
+                src={logo}
+                key={key}
+                className={
+                  "w-60 h-100 rif-br-50 rif-br-6 rif-mx-auto rif-mt-2 rif-bx-s"
+                }
+              />
+            }
+          >
+            <h2 className={"w-100 rif-fs-1"}>{store?.name}</h2>
+            {/*<p className="card-description">{store?.description}</p>*/}
             <Button
-              type="primary"
               htmlType="submit"
-              className="card-btn"
+              className=" w-100 rif-bg-stlyed rif-white rif-fw-3 rif-br-10"
               onClick={() => {
                 // showModal(store?.no);
                 console.log("::::::::::", indivData);
@@ -67,7 +79,9 @@ const Products = (props: PropType) => {
             >
               View More
             </Button>
-            <h1 className="card-no"> {store?.no} </h1>
+            <h1 className="rif-absolute rif-card-no rif-br-50 rif-text-center w-10 h-10 rif-fs-1">
+              {store?.no}
+            </h1>
           </Card>
         );
       })}

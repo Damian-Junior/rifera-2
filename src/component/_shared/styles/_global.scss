@@ -81,9 +81,9 @@
 }
 
 //border_radius
-@for $i from 1 through 20 {
+@for $i from 1 through 50 {
   .#{$prefix}-br-#{$i} {
-    border-radius: multiply-px($i);
+    border-radius: multiply-px($i) !important;
   }
 }
 // theme switch
@@ -177,3 +177,70 @@
   align-items: center;
   justify-content: center;
 }
+//margin_auto
+.#{$prefix}-mx-auto {
+  margin: 0 auto;
+}
+.#{$prefix}-my-auto {
+  margin: auto 0;
+}
+
+//box_shadow
+.#{$prefix}-bx-s {
+  box-shadow: 5px 5px lightgray;
+}
+
+//text_align
+$text-alignment: center, right, left, justify;
+@each $align in $text-alignment {
+  .#{$prefix}-text-#{$align} {
+    text-align: $align;
+  }
+}
+//font_size
+$font-sizes: "fs-1" $fs-text-1, "fs-2" $fs-text-2, "fs-3" $fs-text-3,
+  "fs-4" $fs-text-4, "fs-5" $fs-text-5, "fs-6" $fs-text-6, "fs-7" $fs-text-7,
+  "fs-8" $fs-text-8, "fs-page" $fs-page, "fs-sm-1" $fs-text-sm-1,
+  "fs-sm-2" $fs-text-sm-2, "fs-sm-3" $fs-text-sm-3, "fs-sm-4" $fs-text-sm-4;
+
+@each $name, $size in $font-sizes {
+  .#{$prefix}-#{$name} {
+    font-size: $size !important;
+  }
+}
+
+//font_weight
+@for $j from 1 through 5 {
+  .#{$prefix}-fw-#{$j} {
+    font-weight: 200 + ($j * 100) !important;
+  }
+}
+//background_classes
+
+$bg-colors: "bg-primary" $bg-primary, "bg-secondary" $bg-secondary,
+  "bg-stlyed" $bg-styled;
+
+@each $name, $bg in $bg-colors {
+  .#{$prefix}-#{$name} {
+    background-color: $bg !important;
+  }
+}
+
+// text_colors
+$txt-colors: "text-color" $text-color, "text-color-inverse" $text-color-inverse,
+  "text-color-secondary" $text-color-secondary, "white" $white;
+
+@each $name, $color in $txt-colors {
+  .#{$prefix}-#{$name} {
+    color: $color !important;
+  }
+}
+
+//card_no
+.#{$prefix}-card-no {
+  top: -3%;
+  background-color: $bg-styled;
+  right: -5%;
+  color: #fff;
+}
+//card_btn

@@ -13,13 +13,14 @@ $margin-xs: 8px; // small items
 $margin-xss: 4px; // more small
 
 //themes_styles
-$background-primary: white;
-$background-secondary: #1d1f22;
+$bg-primary: white;
+$bg-secondary: #1d1f22;
+$bg-styled:#48edb5;
 $text-color: #000;
 $text-color-inverse: #d4d4d5;
 $text-color-secondary: rgba(212, 212, 213, 0.45);
 $border-color-base: #d9d9d9;
-
+$white:#fff;
 // Font-size
 $fs-page: 1rem * 2; // 32px (default)
 $fs-text-sm-1: 1rem * 0.5; // 8px (default)
