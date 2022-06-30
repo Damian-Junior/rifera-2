@@ -20,6 +20,7 @@
     "react-coverflow": "^0.2.20",
     "react-detect-offline": "^2.4.5",
     "react-dom": "^18.2.0",
+    "react-icons": "^4.4.0",
     "react-perfect-scrollbar": "^1.5.8",
     "react-responsive": "*",
     "react-router-dom": "^6.3.0",

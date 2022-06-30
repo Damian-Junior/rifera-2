@@ -194,7 +194,7 @@
 $text-alignment: center, right, left, justify;
 @each $align in $text-alignment {
   .#{$prefix}-text-#{$align} {
-    text-align: $align;
+    text-align: $align !important;
   }
 }
 //font_size
@@ -218,7 +218,7 @@ $font-sizes: "fs-1" $fs-text-1, "fs-2" $fs-text-2, "fs-3" $fs-text-3,
 //background_classes
 
 $bg-colors: "bg-primary" $bg-primary, "bg-secondary" $bg-secondary,
-  "bg-stlyed" $bg-styled;
+  "bg-styled" $bg-styled;
 
 @each $name, $bg in $bg-colors {
   .#{$prefix}-#{$name} {
@@ -243,4 +243,8 @@ $txt-colors: "text-color" $text-color, "text-color-inverse" $text-color-inverse,
   right: -5%;
   color: #fff;
 }
-//card_btn
+//header
+.#{$prefix}-header {
+  border-radius: 60% 40% 0% 100% / 0% 1% 99% 100% !important;
+  background-color: $bg-styled;
+}

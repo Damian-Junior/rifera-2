@@ -46,10 +46,11 @@ const Products = (props: PropType) => {
     // @ts-ignore
     <Coverflow
       width={100}
+      active={1}
       height={400}
       displayQuantityOfSide={1}
       navigation={false}
-      enableHeading={false}
+      enableHeading={true}
     >
       {data?.map((store, key) => {
         return (
@@ -58,7 +59,6 @@ const Products = (props: PropType) => {
             className={"rif-relative h-50 rif-py-15 w-50"}
             cover={
               <img
-                alt="example"
                 src={logo}
                 key={key}
                 className={
@@ -67,11 +67,13 @@ const Products = (props: PropType) => {
               />
             }
           >
-            <h2 className={"w-100 rif-fs-1"}>{store?.name}</h2>
+            <h2 className={"w-100 rif-fs-1"} style={{ fontSize: "5vw" }}>
+              {store?.name}
+            </h2>
             {/*<p className="card-description">{store?.description}</p>*/}
             <Button
               htmlType="submit"
-              className=" w-100 rif-bg-stlyed rif-white rif-fw-3 rif-br-10"
+              className=" rif-bg-styled rif-white rif-mx-auto rif-br-10 "
               onClick={() => {
                 // showModal(store?.no);
                 console.log("::::::::::", indivData);

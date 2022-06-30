@@ -1,7 +1,6 @@
 import React from "react";
 import { Button, Input, PageHeader } from "antd";
 import { Fade } from "react-slideshow-image";
-
 import "react-slideshow-image/dist/styles.css";
 import image1 from "./image/mar_1.jpg";
 import image2 from "./image/mar_3.jpg";
@@ -23,11 +22,14 @@ const Header = () => {
     },
   ];
   return (
-    <div className="site-page-header-ghost-wrapper">
+    <div className="site-page-header-ghost-wrapper ">
       <PageHeader
-        className={"rif-mx-6 rif-br-2"}
+        className={"rif-mx-6 rif-br-2 rif-mx-4  "}
         ghost={false}
         backIcon={false}
+        style={{
+          borderRadius: "60% 40% 0% 100% / 0% 1% 99% 100%",
+        }}
         title="RIFERA"
         subTitle={
           <Input
@@ -43,19 +45,22 @@ const Header = () => {
           </Button>,
           <Button key="2" className={"rif-btn"}>
             {" "}
-            Contact
+            Categories
           </Button>,
           <Button key="1" type={"primary"}>
             Help
           </Button>,
         ]}
       ></PageHeader>
-      <div>
-        <Fade className={"w-100 h-50 rif-b-1"} arrows={false}>
+      <div className={" rif-m-6"}>
+        <Fade className={"w-100 h-50 rif-b-1 rif-br-4"} arrows={false}>
           {fadeImages.map((fadeImage, index) => (
             <div className="each-fade" key={index}>
-              <div className="image-container rif-px-6 rif-pt-6 rif-mt-8">
-                <img src={fadeImage.url} className={"rif-slide-image"} />
+              <div className="image-container ">
+                <img
+                  src={fadeImage.url}
+                  className={"rif-slide-image rif-br-4"}
+                />
               </div>
             </div>
           ))}
