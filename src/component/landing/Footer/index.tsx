@@ -57,12 +57,24 @@ const Footer = () => {
             <>
               <Facebook
                 data-testid="facebook"
-                fill={"green"}
-                stroke={"green"}
+                fill={"#48edb5"}
+                stroke={"#48edb5"}
               />
-              <Instagram data-testid="instagram" />
-              <Twitter data-testid="twitter" />
-              <LinkedIn data-testid="linkdin" />
+              <Instagram
+                data-testid="instagram"
+                fill={"#48edb5"}
+                stroke={"#48edb5"}
+              />
+              <Twitter
+                data-testid="twitter"
+                fill={"#48edb5"}
+                stroke={"#48edb5"}
+              />
+              <LinkedIn
+                data-testid="linkdin"
+                fill={"#48edb5"}
+                stroke={"#48edb5"}
+              />
             </>
           )}
           {theme === "dark" && (

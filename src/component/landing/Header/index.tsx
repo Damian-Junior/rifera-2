@@ -47,7 +47,7 @@ const Header = () => {
             {" "}
             Categories
           </Button>,
-          <Button key="1" type={"primary"}>
+          <Button key="1" className={"bg-styled"}>
             Help
           </Button>,
         ]}
